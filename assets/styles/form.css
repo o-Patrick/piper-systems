@@ -1,0 +1,43 @@
+form input{
+    height: 35px;
+    padding: 3px 8px;
+	background-color: var(--cor1);
+    border: 2px solid var(--cor2);
+    border-radius: 2px;
+    font-family: var(--texto);
+    font-weight: 400;
+    font-size: .8em;
+}
+
+form input:hover{
+    border-color: var(--cor3);
+}
+
+form .botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form .botao{
+    width: 120px;
+    color: var(--cor1);
+}
+
+form .primario{
+    background-color: var(--cor3);
+}
+
+form .primario:hover{
+    background-color: var(--cor4);
+}
+
+form .secundario{
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+form .secundario:hover{
+    background-color: var(--cor2);
+    color: var(--cor1);
+}

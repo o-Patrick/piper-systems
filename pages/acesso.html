@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/mainContainer.css">
+    <link rel="stylesheet" href="../assets/styles/form.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <picture>
+                <a href="#">
+                    <img src="#" alt="Logo parceiro">
+                </a>
+                |   <!-- pipe que separa as logos, não uma marca de indentação -->
+                <a href="#">
+                    <img src="#" alt="Logo Piper Systems">
+                </a>
+            </picture>
+            <div>
+                <p>Contato suporte:</p>
+                <p>exemplo@exemplo.com</p>
+                <p>(XX) XXXX-XXXX</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container fixedSizeContainer">
+            <a href="#">
+                <h1>Login</h1>
+            </a>
+            <form action="../assets/functions/acesso/acesso.php" method="post">
+                <label for="usuario">Usuário: </label>
+                <input type="text" name="usuario" id="usuario" tabindex="1"><br>
+
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha" tabindex="2"><br>
+                
+                <div class="botoes">
+                    <input type="submit" name="botao" id="entrar" class="botao primario" value="Entrar" tabindex="3">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Piper Systems &copy; 2022. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

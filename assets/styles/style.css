@@ -1,0 +1,85 @@
+@import "var.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--cor2);
+    font-family: var(--texto);
+    font-weight: 400;
+    color: var(--cor1);
+}
+
+header, footer{
+    background-color: var(--cor0);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6pt 12pt;
+    height: 10vh;
+}
+
+header img{
+    width:  70px;
+    height: 70px;
+}
+
+header p{
+    line-height: 1.5em;
+}
+
+a{
+    color: var(--cor1);
+}
+
+main{
+    height: 80vh;
+}
+
+main .voltar-sair{
+    position: absolute;
+    height: 58px;
+    width: 55px;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+
+main .voltar-sair img{
+    display: block;
+    margin: auto;
+    background-color: var(--cor3);
+    border-radius: 100%;
+}
+
+main .voltar-sair img:hover{
+    background-color: var(--cor4);
+}
+
+main .container{
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.fixedSizeContainer{
+    height: 70vh;
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer{
+    height: 8vh;
+    text-align: center;
+    line-height: 8vh;
+}

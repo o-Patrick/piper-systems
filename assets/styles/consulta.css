@@ -1,0 +1,18 @@
+.autoSizeContainer{
+    min-height: 70vh;
+}
+
+section{
+	margin-top: 30px;
+}
+
+main section p{
+	padding: 3px 5px;
+	background-color: var(--cor1);
+	color: var(--cor0);
+	border-radius: 5px;
+}
+
+main section label{
+	font-weight: 700;
+}

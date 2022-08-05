@@ -1,0 +1,12 @@
+form, section{
+    margin: auto;
+    padding: 10px 20px;
+    background-color: var(--cor0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px var(--cor0);
+    font-size: 1.3em;
+}
+
+form > *, section > *{
+    margin: 10px 0;
+}

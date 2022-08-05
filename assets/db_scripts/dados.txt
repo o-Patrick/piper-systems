@@ -1,0 +1,65 @@
+Teste 1
+	Parceiro
+		CNPJ: 07494654000168
+		Razão social: Ensina Dev
+	Compra
+		CNPJ parceiro: 07494654000168
+		Código produto: C7VG6IFA1AM07X4
+		Nome produto: Processador
+		Lote: EOQ7EPUT5B4MOJI
+		Validade: 27/06/2029 12:00 AM
+		Preço: R$ 10000.00
+	Venda
+		CNPJ parceiro: 07494654000168
+		Código produto: C7VG6IFA1AM07X4
+		Nome produto: Processador
+		Lote: EOQ7EPUT5B4MOJI
+		Validade: 27/06/2029 01:00 AM
+		Preço: R$ 300000.00
+		Equipe vendas: C
+	Estoque
+		Código produto: C7VG6IFA1AM07X4
+------------------------------------------------
+Teste 2
+	Parceiro
+		CNPJ: 51131969000132
+		Razão social: Firevents
+	Compra
+		CNPJ parceiro: 51131969000132
+		Código produto: E8HJ93Z17C87LQ8
+		Nome produto: Cooler
+		Lote: EQCCBAG9A4TJWTG
+		Validade: 12/10/2032 03:00 PM
+		Preço: R$ 80.000
+	Venda
+		CNPJ parceiro: 51131969000132
+		Código produto: E8HJ93Z17C87LQ8
+		Nome produto: Cooler
+		Lote: EQCCBAG9A4TJWTG
+		Validade: 12/10/2032 03:00 PM
+		Preço: R$ 80.000
+		Equipe vendas: A
+	Estoque
+		Código produto: E8HJ93Z17C87LQ8
+------------------------------------------------
+Teste 3
+	Parceiro
+		CNPJ: 07711478000179
+		Razão social: O Tritongo
+	Compra
+		CNPJ parceiro: 07711478000179
+		Código produto: CQPV6FMCQRXNK8U
+		Nome produto: Placas-mãe
+		Lote: JNZ03CLPBHKLJOC
+		Validade: 07/03/2030
+		Preço: R$ 210000.00
+	Venda
+		CNPJ parceiro: 07711478000179
+		Código produto: CQPV6FMCQRXNK8U
+		Nome produto: Placas-mãe
+		Lote: JNZ03CLPBHKLJOC
+		Validade: 07/03/2030
+		Preço: R$ 210000.00
+		Equipe vendas: B
+	Estoque
+		Código produto: CQPV6FMCQRXNK8U
